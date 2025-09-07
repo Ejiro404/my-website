@@ -11,6 +11,6 @@ sidebar_position: 2
 
 ![Enter Task Details](\img\Enter-task.png)
 
-2. Select the Company from the dropdown list.
+2. Select the **Company** from the dropdown list.
 
-
+![Company Logo](/img/company.png)
