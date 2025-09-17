@@ -1,8 +1,16 @@
-# Creating New Tasks
+---
+sidebar_position: 2
+---
 
-To add a new task:
+# Creating new Tasks
 
-1. Navigate to the **Tasks** section.
-2. Click on the **Add Task** button (see screenshot below).
+![Add Task](/img/add-task.png)
 
-![Add Task Screenshot](/img/add-task.png)
+**Step 1: Enter Task Details**
+1. Navigate to the **Add Task** section.
+
+![Enter Task Details](\img\Enter-task.png)
+
+2. Select the **Company** from the dropdown list.
+
+![Company Logo](/img/company.png)
