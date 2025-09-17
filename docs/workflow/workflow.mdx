@@ -1,0 +1,28 @@
+---
+id: workflow
+title: Workflow Process
+sidebar_label: Workflow
+---
+
+# Workflow Process
+
+```mermaid
+flowchart TD
+    A[Customer Order (Zoho, Email)] --> B[Requirement Form]
+    B --> C[Risk Assessment]
+    B --> D[Register Company and Vessel (E-PMS)]
+
+    C -->|Low Risk| E[Approved]
+    C -->|High Risk| F[Management Assessment]
+
+    F -->|Acceptable Risk| E
+    F -->|Risk Too High| G[Rejected]
+
+    E --> H[Send Contract to Client]
+    H --> I[Client Signs Online]
+
+    G --> J[Technical Advice Form]
+
+    J --> K[Expense Request]
+    K -->|Decline| L[Declined]
+    K -->|Approve| M[Approve Expense]

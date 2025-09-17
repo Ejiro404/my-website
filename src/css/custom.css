@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #00008B;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -27,4 +27,29 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Force caution admonition to fiery red */
+.theme-admonition.theme-admonition-caution {
+  background-color: #ffeeee; /* light red background */
+  border-left: 6px solid #d32f2f; /* deep red border */
+  color: #5c0a0a; /* dark red text */
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+/* Style the title ("CAUTION") */
+.theme-admonition.theme-admonition-caution .admonition-title {
+  font-weight: bold;
+  color: #b71c1c;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* 🔥 Replace the icon with a flame */
+.theme-admonition.theme-admonition-caution .admonition-icon {
+  content: "🔥";
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
 }
